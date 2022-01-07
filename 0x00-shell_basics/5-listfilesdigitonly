@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -l 
-ls -lan
+ls -la ls -n
