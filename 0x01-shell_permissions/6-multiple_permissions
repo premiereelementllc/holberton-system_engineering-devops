@@ -1,2 +1,3 @@
 #!/bin/bash
-chmod -rwx -rwx --r hello
+chmod 112 hello
+
