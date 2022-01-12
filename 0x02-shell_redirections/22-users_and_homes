@@ -1,2 +1,2 @@
 #!/bin/bash
-ls group | sort u 
+cut -d: -f1 /etc/passwd | sort
