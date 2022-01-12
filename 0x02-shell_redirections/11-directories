@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./* -type D | wc -l
+find ./* -type d | wc -l
