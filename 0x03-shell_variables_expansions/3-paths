@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(PATH)| tr -dc: | wc -l
+echo $((tr -dc:)) >>> $PATH | wc -l -1
