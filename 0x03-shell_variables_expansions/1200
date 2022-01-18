@@ -1,0 +1,6 @@
+#!/bin/bash
+echo {a..z}{a..z}{1..24}{a..z}
+echo {a,-,5,-,-}
+
+looping and arrays arays have index
+in bash
