@@ -1,2 +1,2 @@
 #!/bin/bash
-print $format_double NUM
+NUM(1/100)
