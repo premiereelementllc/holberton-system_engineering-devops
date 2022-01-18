@@ -1,2 +1,2 @@
 #!/bin/bash
-NUM(1/100)
+printf "%32.f.n\" "NUM"
