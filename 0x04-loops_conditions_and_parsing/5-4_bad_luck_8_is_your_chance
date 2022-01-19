@@ -11,14 +11,18 @@ do
             [ $x -eq 4 ];
 
 then
-       echo "bad luck" 
-fi
+	echo "bad luck" 
 
-    if
+	((X++))
+   
+
+    elif
             [ $x -eq 7 ];
 
 then
        echo "good luck"
+
+((X++))
 fi
-((Best++))
+
 done
