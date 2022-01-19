@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #2nd Display of Best School
 
 x=1; while [ $x -le 10 ] 
