@@ -1,0 +1,17 @@
+#!/bin/bash
+#Script for 1-8 same phrase 9 diffrent phrase
+
+x=1; while [ $x -le 10 ] 
+
+do
+        echo " Best School "
+    x=$(( x + 1 ))
+
+    if
+	    [ $x -eq 9 ]; 
+
+then
+       echo " Hi "	
+fi
+((TEAM++))
+done

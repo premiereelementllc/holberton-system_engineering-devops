@@ -1,0 +1,14 @@
+#!/bin/bash
+#using the until command
+
+count=0
+until [ $count -ge 10 ]
+do 
+	
+	echo "Best School"
+    ((count++))
+   if [[ $count -eq 10 ]]; then 
+
+    break 
+   fi 
+done

@@ -1,0 +1,4 @@
+#!/bin/bash
+#multiple if interjections in a loop sequence
+
+x=1; while [ 
