@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#displaying only bash running programs
+# shellcheck disable=SC2009
+
+ps -aux | less | pgrep bash 
+
