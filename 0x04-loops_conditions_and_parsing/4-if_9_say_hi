@@ -4,14 +4,16 @@
 x=1 while [ $x -le 10 ] 
 
 do
-        echo " Best School "
-    x=$(( x + 1 ))
+	if [ $x -eq 9 ]
+	
+	then
 
-    if
-	    [ $x -eq 9 ] 
+        echo " Hi "
 
-then
-       echo " Hi "	
 fi
-((TEAM++))
+  
+       echo "Best School"	
+
+
+((X++))
 done

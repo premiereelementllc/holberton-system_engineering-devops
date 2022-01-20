@@ -13,7 +13,6 @@ do
 then
 	echo "bad luck" 
 
-	((X++))
    
 
     elif
@@ -22,7 +21,8 @@ then
 then
        echo "good luck"
 
+    fi
 ((X++))
-fi
+
 
 done

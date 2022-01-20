@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#Displaying time with a bash clock
+
+hour=0
+while ((hour <13))
+
+do 
+	echo "Hour:" $hour
+	((hour++))
+
+minute=1
+
+while ((minute < 60))
+
+do
+	echo "Minutets"  $minute
+	((minute++))
+
+done
+echo (12:59) 
+done
+

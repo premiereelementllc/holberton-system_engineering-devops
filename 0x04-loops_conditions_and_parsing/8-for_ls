@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Displaying current directory 
+
+for ls in *
+
+do
+
+echo "$ls" | cut -f2 -d -
+
+done
