@@ -2,5 +2,5 @@
 #displaying only bash running programs
 # shellcheck disable=SC2009
 
-ps -aux | less | pgrep bash 
+ps -aux | less | less -C bash
 
