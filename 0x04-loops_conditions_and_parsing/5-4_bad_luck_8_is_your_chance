@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 #Script for 1-8 same phrase 9 diffrent phrase
 
-x=1; while [ $x < 10 ] 
+x=1; while [ $x -le 10 ] 
 
 do
        
 
     if
-            [ $x ==  4 ];
+            [ $x -eq  4 ];
 
 then
 	echo "bad luck" 
@@ -15,7 +15,7 @@ then
    
 
     elif
-            [ $x == 8 ];
+            [ $x -eq 8 ];
 
 then
        echo "good luck"
@@ -23,7 +23,7 @@ then
 else 
 	echo "Best School"
     fi
-((X++))
+((x++))
 
 
 done
