@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Displaying 
 
-while [ true ]
+while true 
 
 do
 
