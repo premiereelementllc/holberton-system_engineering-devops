@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #multiple if interjections in a loop sequence
 
 x=1
