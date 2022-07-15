@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#nginx configuration
+
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install nginx
+echo "Hello World" | sudo tee /var/www/html/index.html
+searchingfor="^\tlocation / {"
+replacewith="\tlocation /redirect_me {\n\t\treturn 301 \$scheme://youtube.com/watch?v=QH2-TGUlwu4;}\n\n\tlocation / {"
+sudo sed -i "s@$searchingfor@$replacewith@" /etc/nginx/sites-available/default
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/error404.html
+replace="\terror_page 404 /error404.html;\n\n\tadd_header X-Served-By $HOSTNAME;\n\n\tlocation / {"
+sudo sed -i "s@$searchingfor@$replace@" /etc/nginx/sites-available/default
+# must restart nginx after any updates to the configuration
+sudo service nginx restart
