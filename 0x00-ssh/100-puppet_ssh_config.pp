@@ -1,4 +1,4 @@
-
+#turns off password auth and then uses hbtn key
 
 
 include stdlib
