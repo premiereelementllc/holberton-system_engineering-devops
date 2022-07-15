@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #ssh onto server
 
-ssh -i ./.ssh/school ubuntu@54.158.4.248
+ssh -i ~/.ssh/school ubuntu@54.158.4.248
 
 
